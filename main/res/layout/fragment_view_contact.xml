@@ -1,0 +1,72 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="example.com.homework9.ViewContactFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/vcFullName"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:gravity="top|center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:minWidth="100dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vcPhoto"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:id="@+id/viewContactNameDescription"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginBottom="100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vcContactName"
+        android:layout_gravity="center"
+        android:layout_marginBottom="100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone#:"
+        android:id="@+id/phoneid"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginBottom="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/vcPhoneNum"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:id="@+id/emailid"
+        android:layout_gravity="left|center_vertical" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/vcEmail"
+        android:layout_gravity="center" />
+
+
+</FrameLayout>

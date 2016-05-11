@@ -1,0 +1,80 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="example.com.homework9.EditProfileFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameDescription"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/profileImage"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/nameDescription"
+        android:layout_above="@+id/fullNameEditProfile"
+        android:layout_marginBottom="330dp"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fullNameEditProfile"
+        android:layout_above="@+id/emailEditProfile"
+        android:layout_alignParentRight="true"
+        android:hint="Full Name"
+        android:layout_marginTop="190dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailEditProfile"
+        android:layout_above="@+id/phoneNumbeEditProfile"
+        android:layout_alignParentRight="true"
+        android:hint="Email"
+        android:layout_marginTop="220dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phoneNumbeEditProfile"
+        android:layout_above="@+id/passwordEdit"
+        android:layout_alignParentRight="true"
+        android:hint="Phone Number"
+        android:layout_marginTop="260dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwordEdit"
+        android:layout_marginBottom="89dp"
+        android:layout_above="@+id/updateProfile"
+        android:layout_alignParentStart="true"
+        android:hint="Password"
+        android:layout_marginTop="300dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:id="@+id/updateProfile"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/nameDescription"
+        android:layout_marginTop="355dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cancel"
+        android:id="@+id/cancelUpdate"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/nameDescription"
+        android:layout_marginTop="400dp" />
+
+</FrameLayout>
